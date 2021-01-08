@@ -187,7 +187,7 @@ public class ARM9
 					}
 				}
 			}
-			if(found) {break;}
+			if(found) {return i;}
 		}
 		return index;
 	}
